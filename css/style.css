@@ -27,6 +27,21 @@ p {
   margin: 0 0.5rem;
 }
 
+#resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: var(--border);
+  border-radius: 2rem;
+  width: 100px;
+  transition: all 0.3s ease-in-out;
+}
+
+#resume:hover {
+  background-color: black;
+  color: white;
+}
+
 /* HERO */
 
 #hero {
