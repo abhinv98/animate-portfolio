@@ -18,8 +18,8 @@
     <div id="hero">
       <h5>Hey. I'm</h5>
       <h1>Abhinav Rai</h1>
-      <p>Web Developer</p>
-      <button id='resume' href="https://drive.google.com/file/d/10Nb1n5565MwC4_bk4NSfyu__u2lE0PeK/view?usp=sharing">Resume</button>
+      <p> Web Developer</p>
+      
       
       <!-- Block, Element, Modifier (BEM) naming convention-->
       <div id="hero__animation">
@@ -46,8 +46,8 @@
               </article>
               <p class="cards__content__text">
                 Dealt with projects and experiments related to Web Development,
-                Python Programming, Machine Learning and AI
-
+                Python Programming, Machine Learning and AI and
+                I love animations and web designs.
               </p>
             </div>
             <div class="cards__content">
@@ -224,6 +224,26 @@
                 GitHub
               </button>
             </div>
+            <div class="project p-3">
+              <img
+                class="project__img project-3"
+                src="assets/portfolio-projects/project-3-dark.png"
+                alt="Project 2"
+              />
+              <h2 class="project__title">Ai-text-summariser</h2>
+              <button
+                class="btn"
+                onclick="window.location.href='https://sumtext.netlify.app/'"
+              >
+                Demo
+              </button>
+              <button
+                class="btn"
+                onclick="window.location.href='https://github.com/abhinv98/ai-text-summarizer'"
+              >
+                GitHub
+              </button>
+            </div>
             
             <button class="arrow" onclick="navigateProject(-1)">
               &#10094;
@@ -240,7 +260,7 @@
           <div>
             <button
               class="btn btn-contact"
-              onclick="window.location.href='98abrai@gmail.com'"
+              onclick="window.location.href='mailto:98abrai@gmail.com'"
             >
               Email
             </button>
@@ -250,9 +270,16 @@
             >
               LinkedIn
             </button>
+            <button
+              class="btn btn-contact"
+              onclick="window.open('https://drive.google.com/file/d/10Nb1n5565MwC4_bk4NSfyu__u2lE0PeK/view?usp=sharing', '_blank')"
+            >
+              Resume
+            </button>
           </div>
         </div>
       </div>
+      
     </nav>
     <div id="color-mode">
       <div id="toggle-button" class="icon"></div>
